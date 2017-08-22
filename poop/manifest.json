@@ -1,0 +1,20 @@
+{
+  "description": "Blocks the poop.",
+  "manifest_version": 2,
+  "name": "poop",
+  "version": "0.0.1",
+  "host": "*://*",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "activeTab",
+    "tabs",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+	"poop.js"
+    ]
+  }
+}
