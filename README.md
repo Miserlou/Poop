@@ -27,6 +27,9 @@ Easy!
  * Publish to Firefox Store
  * Publish to Chrome Store
 
+## Related Projects
+ * [nogoogle](https://github.com/Miserlou/nogoogle) - Black hole all Google domains.
+
 ## License
 
 (c) Public Domain/CC0, Rich Jones, 2017.
