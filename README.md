@@ -26,6 +26,7 @@ Easy!
  * Anonymously report poop and nonpoop back to a central server.
  * Publish to Firefox Store
  * Publish to Chrome Store
+ * Add ability to bypass 💩 block.
 
 ## Related Projects
  * [nogoogle](https://github.com/Miserlou/nogoogle) - Black hole all Google domains.
