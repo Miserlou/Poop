@@ -1,12 +1,14 @@
-# Poop 💩
+# 💩 Poop
 
-''Poop'' is an ad-blocker which blocks Google ads _and the pages that host them_.
+**Poop** is an ad-blocker which blocks Google ads _and the pages that host them_.
 
-The mission of the project is to leave the user with a ''purely non-commercial'' internet browsing experience.
+The mission of the project is to leave the user with a _purely non-commercial_ web browsing experience.
 
 ## What?
 
 The internet is completely smeared with poop. Low-quality, click-baity, designed-to-infuriate, ad-supported poop. I'm sick of it.
+
+Ad-blockers do a great job of blocking ad units themselves, but nothing to block the shitty content which surrounds them. Poop aims to solve this problem.
 
 ## Development / Usage
 
