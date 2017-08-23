@@ -24,7 +24,8 @@ Easy!
 
 ## TODO
  * Anonymously report poop and nonpoop back to a central server.
- * ~~~Publish to Firefox Store~~~ [Poop on Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/poop-ad-blocker/)
+ * ~~~Publish to Firefox Store~~~ 
+   * Done: [Poop on Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/poop-ad-blocker/)
  * Publish to Chrome Store
  * Add ability to bypass 💩 block.
 
