@@ -20,16 +20,21 @@ let bad_domains = [
     "wwwadwordsselect.com"
 ];
 
-function logURL(requestDetails) {
+function filterURL(requestDetails) {
   for (let domain of bad_domains) {
+
+    // Filter the Poop.
     if (requestDetails.url.includes(domain)){
         browser.tabs.executeScript({
-          file: "page-eater.js"
+          file: "page-eater.js",
+          runAt: "document_end"
         });
     }
   }
 }
 
 browser.webRequest.onBeforeRequest.addListener(
-  logURL, { urls: ["<all_urls>"] }
+  filterURL, {
+    urls: ["<all_urls>"]
+  }
 );

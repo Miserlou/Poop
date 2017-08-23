@@ -1,7 +1,7 @@
 {
-  "description": "Blocks the poop.",
+  "description": "The internet is covered in 💩. Avoid it.",
   "manifest_version": 2,
-  "name": "poop",
+  "name": "Poop",
   "version": "0.0.1",
   "permissions": [
     "webRequest",
