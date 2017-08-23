@@ -1,4 +1,4 @@
-bad_domains = [
+let bad_domains = [
     "admob.com",
     "adsense.com",
     "adsense.net",
@@ -18,13 +18,10 @@ bad_domains = [
     "googleadservices.com",
     "wwwadwords-select.com",
     "wwwadwordsselect.com"
-]
+];
 
 function logURL(requestDetails) {
-
-  var count = bad_domains.length;
-  for(var i = 0; i < count; i++) {
-    var domain = bad_domains[i];
+  for (let domain of bad_domains) {
     if (requestDetails.url.includes(domain)){
         browser.tabs.executeScript({
           file: "page-eater.js"
@@ -34,8 +31,5 @@ function logURL(requestDetails) {
 }
 
 browser.webRequest.onBeforeRequest.addListener(
-  logURL,
-  {
-    urls: ["<all_urls>"]}
+  logURL, { urls: ["<all_urls>"] }
 );
-
