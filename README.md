@@ -10,6 +10,10 @@ The internet is completely smeared with poop. Low-quality, click-baity, designed
 
 Ad-blockers do a great job of blocking ad units themselves, but nothing to block the shitty content which surrounds them. Poop aims to solve this problem.
 
+## Installation
+
+[![Install Firefox](https://img.shields.io/badge/install-firefox-orange.svg)](https://addons.mozilla.org/en-US/firefox/addon/poop-ad-blocker/)
+
 ## Development / Usage
 
 The easiest way to try this out is to:
@@ -22,12 +26,24 @@ Then, from the `poop` directory:
 
 Easy!
 
+## Sites That Are And Aren't Poop
+
+### Are Poop
+ * BuzzFeed 
+ * Reddit
+ * Twitter
+
+### Aren't Poop 
+ * Wikipedia
+ * GitHub
+ * Wikileaks
+
 ## TODO
  * Anonymously report poop and nonpoop back to a central server.
  * ~~~Publish to Firefox Store~~~ 
    * Done: [Poop on Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/poop-ad-blocker/)
  * Publish to Chrome Store
- * Add ability to bypass 💩 block.
+ * ~~~Add ability to bypass 💩 block.~~~
 
 ## Related Projects
  * [nogoogle](https://github.com/Miserlou/nogoogle) - Black hole all Google domains.
