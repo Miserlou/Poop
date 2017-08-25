@@ -27,6 +27,7 @@ function filterURL(requestDetails) {
 
     // Filter the Poop.
     if (requestDetails.url.includes(domain) && blockPoop){
+        console.log("Detected blocked domain: " + requestDetails.url);
         browser.tabs.executeScript({
           file: "page-eater.js",
           runAt: "document_end"
