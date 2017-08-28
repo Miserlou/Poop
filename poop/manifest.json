@@ -2,7 +2,7 @@
   "description": "The internet is covered in 💩. Avoid it.",
   "manifest_version": 2,
   "name": "Poop",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "permissions": [
     "webRequest",
     "webRequestBlocking",

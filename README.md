@@ -32,11 +32,13 @@ Easy!
  * BuzzFeed 
  * Reddit
  * Twitter
+ * TechCrunch
 
 ### Aren't Poop 
  * Wikipedia
  * GitHub
  * Wikileaks
+ * HackerNews
 
 ## TODO
  * Anonymously report poop and nonpoop back to a central server.
